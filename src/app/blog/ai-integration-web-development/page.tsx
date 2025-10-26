@@ -4,7 +4,7 @@ import { ArrowLeft, Calendar, Clock, User, Brain, Zap, Code } from 'lucide-react
 
 export default function AIIntegrationBlog() {
   return (
-    <div className="min-h-screen bg-zinc-900">
+    <div className="min-h-screen bg-zinc-900 overflow-x-hidden">
       <div className="max-w-4xl mx-auto px-4 sm:px-8 py-12">
         {/* Back Button */}
         <Link 
@@ -108,8 +108,8 @@ export default function AIIntegrationBlog() {
               AI responses.
             </p>
 
-            <div className="bg-zinc-800 p-4 rounded-lg my-6 font-mono text-sm">
-              <pre className="text-zinc-300">
+            <div className="bg-zinc-800 p-4 rounded-lg my-6 font-mono text-sm overflow-x-auto">
+              <pre className="text-zinc-300 whitespace-pre-wrap break-words">
 {`// Example: AI-powered search component
 const AISearch = () => {
   const [query, setQuery] = useState('');

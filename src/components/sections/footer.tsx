@@ -22,7 +22,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="mt-40">
+    <footer className="mt-20 sm:mt-40 px-4 sm:px-0">
       <div className="flex flex-col items-center">
         <Link href="/" className="font-bold text-sm flex items-center justify-center text-white space-x-2">
           <Image
@@ -34,7 +34,7 @@ const Footer = () => {
           />
           <span className="font-inter font-bold">Rishav Kamboj</span>
         </Link>
-        <div className="flex flex-row space-x-8 items-center antialiased mt-8">
+        <div className="flex flex-col sm:flex-row sm:space-x-8 space-y-2 sm:space-y-0 items-center antialiased mt-8">
           {navLinks.map((link) => (
             <a 
               key={link.href} 
@@ -52,16 +52,16 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <div className="flex flex-col items-center justify-center mt-12">
+        <div className="flex flex-col items-center justify-center mt-8 sm:mt-12">
           <p className="text-xs text-zinc-400">© 2025 Rishav Kamboj. All rights reserved.</p>
-          <div className="mt-4 flex flex-row space-x-4">
+          <div className="mt-4 flex flex-row flex-wrap justify-center gap-3 sm:gap-4">
             {socialLinks.map((social) => (
               <a 
                 key={social.href}
                 href={social.href} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-zinc-400 text-sm hover:text-cyan-500 transition-colors duration-150"
+                className="text-zinc-400 text-sm hover:text-cyan-500 transition-colors duration-150 p-1"
               >
                 {social.icon}
               </a>
