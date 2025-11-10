@@ -20,6 +20,11 @@ export default function Home() {
         <section id="experience">
           <WorkExperience />
         </section>
+        <section id="tech-stack">
+          <div className="max-w-5xl mx-auto px-4 sm:px-8 mt-40">
+            <UsesSection />
+          </div>
+        </section>
         <section id="projects">
           <ProjectsGrid />
         </section>
@@ -28,17 +33,10 @@ export default function Home() {
         </section>
         <section id="blogs">
           <div className="max-w-5xl mx-auto px-4 sm:px-8 mt-40">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-              <div className="lg:col-span-2">
-                <h3 className="font-bold text-xl tracking-wide text-zinc-50 mb-8">
-                  Blog
-                </h3>
-                <BlogPosts />
-              </div>
-              <div className="lg:col-span-1">
-                <UsesSection />
-              </div>
-            </div>
+            <h3 className="font-bold text-xl tracking-wide text-zinc-50 mb-8">
+              Blog
+            </h3>
+            <BlogPosts />
           </div>
         </section>
         <div className="max-w-5xl mx-auto px-4 sm:px-8 pb-20">

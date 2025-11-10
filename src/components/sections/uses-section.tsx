@@ -1,23 +1,48 @@
 const usesItems = [
   {
-    title: "React.js & TypeScript",
-    description: "My primary frontend stack for building modern, type-safe web applications. I love the developer experience and the ecosystem.",
+    title: "Next.js & React Ecosystem",
+    description:
+      "Ship production-grade web applications with Next.js, React, and TypeScript—leveraging server components, app router patterns, and performance-first architecture.",
+  },
+  {
+    title: "Shadcn UI & Tailwind CSS",
+    description:
+      "Craft beautiful, accessible interfaces with Shadcn UI primitives and Tailwind CSS, rapidly customizing design systems without sacrificing polish.",
+  },
+  {
+    title: "tRPC & TanStack Query",
+    description:
+      "Deliver end-to-end type-safe APIs and real-time UX using tRPC for contracts and TanStack Query for caching, invalidation, and optimistic updates.",
+  },
+  {
+    title: "Prisma ORM & PostgreSQL",
+    description:
+      "Model relational data with Prisma and PostgreSQL, enabling migrations, performant queries, and maintainable schemas for mission-critical workloads.",
+  },
+  {
+    title: "Clerk Authentication",
+    description:
+      "Implement secure authentication and user management flows with Clerk—supporting SSO, multi-tenant access, and granular session control.",
+  },
+  {
+    title: "Inngest & E2B Automations",
+    description:
+      "Orchestrate durable workflows with Inngest and run secure, isolated code sandboxes using E2B to power background jobs and AI-driven automations.",
   },
   {
     title: "Node.js & Express",
-    description: "Backend development with Node.js for scalable server-side applications. Express for building robust APIs and microservices.",
-  },
-  {
-    title: "MongoDB & Database Design",
-    description: "NoSQL database expertise for flexible data modeling. I design optimized schemas for performance and scalability.",
+    description:
+      "Build scalable backend services, REST APIs, and microservices with Node.js, Express, and modern deployment practices.",
   },
   {
     title: "AI Integration & APIs",
-    description: "OpenAI API, Gemini API, and ChatGPT integrations. Building AI-powered features that add real business value.",
+    description:
+      "OpenAI, Gemini, and LangChain integrations that embed intelligence into products while maintaining reliability and ethical guardrails.",
   },
   {
     title: "Deployment & DevOps",
-    description: "AWS, Vercel, and cloud hosting expertise. I handle everything from development to production deployment and maintenance.",
+    description:
+      "AWS, Vercel, containerization, and CI/CD pipelines—owning the full lifecycle from prototype to production-ready infrastructure.",
   },
 ];
 

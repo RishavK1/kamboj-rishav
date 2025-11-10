@@ -25,6 +25,7 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
     setError('');
+    const submission = { ...formData };
 
     try {
       const response = await fetch('/api/contact', {
@@ -32,10 +33,17 @@ const ContactForm = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(submission),
       });
 
       if (response.ok) {
+        const whatsappMessage = encodeURIComponent(
+          `New contact enquiry\n\nName: ${submission.name}\nEmail: ${submission.email}\nSubject: ${submission.subject}\nMessage: ${submission.message}`
+        );
+        const whatsappUrl = `https://wa.me/919729788743?text=${whatsappMessage}`;
+        if (typeof window !== 'undefined') {
+          window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+        }
         setIsSubmitted(true);
         setFormData({ name: '', email: '', subject: '', message: '' });
       } else {

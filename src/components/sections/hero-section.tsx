@@ -13,11 +13,11 @@ const HeroSection = () => {
         transform their ideas into scalable, secure web applications that drive real results.
       </p>
       <div className="mt-8 max-w-2xl text-sm leading-loose tracking-wide text-zinc-400 md:text-base">
-        Currently working as{' '}
+        Previously worked as{' '}
         <span className="font-bold text-zinc-200">
           Full Stack Developer Intern at CodeRower Software
         </span>{' '}
-        and building{' '}
+        where I helped build{' '}
         <a
           href="https://github.com/RishavK1"
           className="font-bold text-zinc-200 outline-none transition duration-150 hover:text-cyan-500"

@@ -6,8 +6,14 @@ import { ArrowUpRight, Bot, Code2, Rocket, Server, ChevronDown, ChevronUp } from
 
 const projects = [
     {
+      title: "Bloom",
+      description: "AI-powered app builder transforming natural language prompts into production-ready Next.js applications through conversational AI.",
+      link: "https://bloom-dusky-eight.vercel.app/",
+      image: "/bloom1.png",
+    },
+    {
       title: "PixelorCode",
-      description: "Modern website development agency with responsive design and lead generation optimization.",
+      description: "Modern web studio delivering high-converting, responsive experiences with performance-led builds, automated lead funnels, and ongoing growth experimentation.",
       link: "https://pixelorcode.com/",
       image: "/pixelorcode.png",
     },
@@ -16,6 +22,12 @@ const projects = [
       description: "Renewable energy corporate website with 40% increase in qualified inquiries, established online credibility, and improved brand perception.",
       link: "https://github.com/RishavK1",
       image: "/power.png",
+    },
+    {
+      title: "MERN Job Portal",
+      description: "Feature-rich job portal with dual authentication for recruiters and seekers, real-time filtering, and production-ready deployment.",
+      link: "https://job-portal-beige-seven.vercel.app/",
+      image: "/job.png",
     },
     {
       title: "Rose Cafe",
