@@ -65,12 +65,10 @@ export default function Navigation() {
           ))}
         </div>
         <a
-          href="/Rishav-Kamboj.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="mailto:rishavkamboj75@gmail.com"
           className="font-medium text-white inline-flex items-center justify-center rounded-[10px] bg-gradient-to-b from-[#464d55] to-[#25292e] text-sm px-4 py-2 transition duration-150 shadow-[0_10px_20px_rgba(0,0,0,0.1),0_3px_6px_rgba(0,0,0,0.05)] hover:shadow-[rgba(0,0,0,0.2)_0_2px_8px] active:outline-none hover:opacity-80"
         >
-          Download CV
+          Email me
         </a>
       </div>
 
@@ -123,12 +121,10 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="/Rishav-Kamboj.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:rishavkamboj75@gmail.com"
             className="font-medium text-white inline-flex items-center justify-center rounded-[10px] bg-gradient-to-b from-[#464d55] to-[#25292e] text-lg px-6 py-3 transition duration-150 shadow-[0_10px_20px_rgba(0,0,0,0.1),0_3px_6px_rgba(0,0,0,0.05)] hover:shadow-[rgba(0,0,0,0.2)_0_2px_8px] active:outline-none hover:opacity-80 mt-4"
           >
-            Download CV
+            Email me
           </a>
         </div>
       )}

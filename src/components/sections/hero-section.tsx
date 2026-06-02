@@ -9,22 +9,22 @@ const HeroSection = () => {
       </h1>
       <p className="mt-8 max-w-2xl text-sm leading-loose tracking-wide text-zinc-400 md:text-base">
         Meet Rishav Kamboj, a passionate Full Stack Developer specializing in React.js, TypeScript, 
-        Node.js, and AI Integration. With 2+ years of experience, I help businesses worldwide 
+        Node.js, and AI Integration. With 3+ years of experience, I help businesses worldwide 
         transform their ideas into scalable, secure web applications that drive real results.
       </p>
       <div className="mt-8 max-w-2xl text-sm leading-loose tracking-wide text-zinc-400 md:text-base">
-        Previously worked as{' '}
+        Recently worked as{' '}
         <span className="font-bold text-zinc-200">
-          Full Stack Developer Intern at CodeRower Software
+          Full Stack Software Developer at Subhx InfoTech
         </span>{' '}
-        where I helped build{' '}
+        and contributed to financial technology platforms at{' '}
         <a
           href="https://github.com/RishavK1"
           className="font-bold text-zinc-200 outline-none transition duration-150 hover:text-cyan-500"
         >
-          innovative projects
+          75way Technologies
         </a>{' '}
-        that solve real-world problems.
+        across frontend, backend, and production systems.
       </div>
     </div>
   );
