@@ -6,6 +6,12 @@ import { ArrowUpRight, Bot, Code2, Rocket, Server, ChevronDown, ChevronUp } from
 
 const projects = [
     {
+      title: "TalScout.ai",
+      description: "AI-powered talent scouting platform that reads every résumé and lets you search your entire candidate database in plain English — in seconds. Built for staffing teams.",
+      link: "https://github.com/RishavK1/talscout.ai",
+      image: "/talscout.png",
+    },
+    {
       title: "Bloom",
       description: "AI-powered app builder transforming natural language prompts into production-ready Next.js applications through conversational AI.",
       link: "https://bloom-dusky-eight.vercel.app/",
