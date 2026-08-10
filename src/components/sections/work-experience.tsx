@@ -54,7 +54,7 @@ const workExperienceData = [
     duration: "2022 - Present",
     location: "India (Remote)",
     description: [
-      "Led 2+ years of freelance product delivery across discovery, architecture, development, deployment, and post-launch optimization",
+      "Led 1+ years of freelance product delivery across discovery, architecture, development, deployment, and post-launch optimization",
       "Owned end-to-end delivery for 16+ production web applications using React.js, TypeScript, Node.js, Next.js, and AI-powered integrations",
       "Translated ambiguous business requirements into scalable technical roadmaps, clean interfaces, reusable components, and maintainable backend systems",
       "Drove measurable client outcomes, including a 40% increase in qualified inquiries for Perpetual Power Services and an 85% lead-quality improvement for Rudra Infocom",
