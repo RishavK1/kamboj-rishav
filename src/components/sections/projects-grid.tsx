@@ -7,14 +7,14 @@ import { ArrowUpRight, Bot, Code2, Rocket, Server, ChevronDown, ChevronUp } from
 const projects = [
     {
       title: "TalScout.ai",
-      description: "AI-powered talent scouting platform that reads every résumé and lets you search your entire candidate database in plain English — in seconds. Built for staffing teams.",
-      link: "https://github.com/RishavK1/talscout.ai",
+      description: "Two AI engines in one multi-tenant SaaS: Outreach discovers businesses that fit what you sell and writes each of them a personal cold email; Talent turns a pile of résumés into a database you can search in plain English.",
+      link: "https://talscout.rishavkamboj.online/",
       image: "/talscout.png",
     },
     {
       title: "Bloom",
       description: "AI-powered app builder transforming natural language prompts into production-ready Next.js applications through conversational AI.",
-      link: "https://bloom-dusky-eight.vercel.app/",
+      link: "https://bloom.rishavkamboj.online/",
       image: "/bloom1.png",
     },
     {
